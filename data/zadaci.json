@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "naziv": "Kupiti namirnice",
+    "rok": "2026-07-18",
+    "zavrsen": false
+  },
+  {
+    "id": 2,
+    "naziv": "Pripremiti prezentaciju",
+    "rok": "2026-07-20",
+    "zavrsen": true
+  }
+]

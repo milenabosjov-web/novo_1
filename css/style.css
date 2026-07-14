@@ -1,0 +1,101 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f4f5f7;
+  margin: 0;
+  color: #1f2430;
+}
+
+.topbar {
+  background: #fff;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.topbar h1 { margin: 0; font-size: 1.3rem; }
+
+.sadrzaj {
+  max-width: 700px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  margin-bottom: 1.5rem;
+}
+
+.card h2 { margin-top: 0; font-size: 1.05rem; }
+
+form label {
+  display: block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+form input {
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #d5d8dd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+form button {
+  margin-top: 1.1rem;
+  width: 100%;
+  padding: 0.6rem;
+  background: #2f5fda;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+form button:hover { background: #2549b0; }
+
+.greska {
+  color: #c0392b;
+  font-size: 0.85rem;
+  min-height: 1.2em;
+}
+
+.prazna-poruka {
+  color: #888;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+table { width: 100%; border-collapse: collapse; }
+
+th, td {
+  text-align: left;
+  padding: 0.6rem 0.5rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+
+th { color: #666; font-weight: 600; }
+
+.status-zavrsen { color: #2e7d32; font-weight: 600; }
+.status-neaktivan { color: #b26a00; font-weight: 600; }
+
+td button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-right: 0.3rem;
+}
+
+.btn-zavrsi { background: #e6f4ea; color: #2e7d32; }
+.btn-obrisi { background: #fdecea; color: #c0392b; }

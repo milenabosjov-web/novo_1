@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistem za upravljanje zadacima</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Moji zadaci</h1>
+  </header>
+
+  <main class="sadrzaj">
+    <section class="card">
+      <h2>Dodaj novi zadatak</h2>
+      <form id="forma-zadatak">
+        <label for="naziv">Naziv zadatka</label>
+        <input type="text" id="naziv" name="naziv" required maxlength="100">
+
+        <label for="rok">Rok</label>
+        <input type="date" id="rok" name="rok" required>
+
+        <button type="submit">Dodaj zadatak</button>
+      </form>
+      <p id="zadatak-greska" class="greska" role="alert"></p>
+    </section>
+
+    <section class="card">
+      <h2>Lista zadataka</h2>
+      <table id="tabela-zadaci">
+        <thead>
+          <tr>
+            <th>Naziv</th>
+            <th>Rok</th>
+            <th>Status</th>
+            <th>Akcije</th>
+          </tr>
+        </thead>
+        <tbody id="tabela-telo">
+        </tbody>
+      </table>
+      <p id="prazna-lista" class="prazna-poruka" hidden>Trenutno nema zadataka.</p>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
